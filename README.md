@@ -27,7 +27,7 @@
 
 ## 인터페이스
 
-1. 각 레이어 마다 interface를 만드는거는 불 필요 합니다.
+1. 각 레이어 마다 interface를 만드는거는 불필요 합니다.
 
 - 예로 Service에 interface 와 Repostiory interface를 무조건 만드는 행위는 Useless interface 입니다.
 - interface를 만드는 이유는 다형성 때문인데 그저 한곳만 사용하는거라면 불필요한 인터페이스입니다.
