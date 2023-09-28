@@ -15,7 +15,7 @@
 - 굳이 데이터베이스를 모델로 안둬도되고 Rest API 처럼 상태변경(POST, DELETE, PUT)과 조회(GET)를 나누는게 가능한 모델이면 가능합니다.
 - Rest API Example: https://codeopinion.com/is-a-rest-api-with-cqrs-possible/
 
-2. 분리해서 얻을수있는 효과는 아래와 같습니다.
+2. 분리해서 얻을수있는 효과
 
 - 추후에 조회 부분이 부하가 많이 갈 경우 Read 전용 데이터베이스가 생성되도 이미 조회 전용 모듈이 분리 되었기에 쉽게 코드 변경이 가능합니다.
 - 모듈의 응집도 증가
@@ -54,7 +54,7 @@
 
 1. 해당 아키텍처는 기본적으로 https://github.com/Sairyss/domain-driven-hexagon 를 참고하여 만들었습니다.
 
-- 위 아키텍처는 Hexagon + DDD이지만 DDD를 없애고 Controller - Service - Repository 3 Layer로 만들었습니다.
+- 위 아키텍처는 Hexagon + DDD에서 DDD Layer를 없애고 Controller - Service - Repository 3 Layer로 만들었습니다.
 
 ### DDD를 뺀 이유
 
