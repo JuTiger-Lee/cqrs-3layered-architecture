@@ -1,0 +1,2 @@
+export const USER_IS_NOT_EXIST = 'USER_IS_NOT_EXIST';
+export const USER_SAVE_FAIL = 'USER_SAVE_FAIL';
